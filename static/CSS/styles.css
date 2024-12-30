@@ -83,6 +83,10 @@ nav ul li a {
     color: #000;
 }
 
+.logreg a{
+    color: blue;
+}
+
 nav ul li a:hover {
     color: var(--secondary);
 }
@@ -139,6 +143,7 @@ nav ul li a:hover {
 
 .features {
     margin-top: -115px;
+    margin-bottom: 50px;
 }
 
 .feature-inner {
@@ -406,6 +411,7 @@ nav ul li a:hover {
 .contact .contact-content .location{
     width: 50%;
 }
+
 footer{
     background-color: #0a0f43;
     padding-top: 120px;

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='CSS/styles.css') }}">
+    <!-- fontawesome Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-info">
+            <div>
+                <a href="#"><i class="fa-solid fa-phone"></i>Call : 123456789</a>
+            </div>
+            <div>
+                <a href="#"><i class="fa-solid fa-envelope"></i>Email : abc@gmail.com</a>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <div class="logo">
+            <a href="/index">inance</a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="contact">
+        <div class="wrapper">
+            <h2>Contact us</h2>
+            <div class="contact-content">
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Phone">
+                        <textarea placeholder="Message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                    <div class="location">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14471.47164333253!2d67.08220445!3d24.93656935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f5b9e383561%3A0xe191a5b905cd5783!2sMamji%20Hospital!5e0!3m2!1sen!2s!4v1733159516671!5m2!1sen!2s" width="600" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> 
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <h4>get in touch</h4>
+            <div class="footer-inner">
+                <div class="footer-items">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5>123,href location</h5>
+                </div>
+                <div class="footer-items">
+                    <i class="fa-solid fa-phone"></i>
+                    <h5>123456789</h5>
+                </div>
+                <div class="footer-items">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h5>abc@mail.com</h5>
+                </div>
+            </div>
+            <div class="social">
+                <h4>Follow us</h4>
+                <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>       
+            </div>
+            <div class="rights">
+                <p>&copy; <span>2024 All Rights Reserved. By Muhammad Laraib</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
